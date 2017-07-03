@@ -33,7 +33,7 @@
     background-image:url(../images/image1.jpg);
     background-size: cover;
     height: 800px;
-    border: 1px solid #9b9b9b;
+    /* border: 1px solid #9b9b9b;*/
     margin: 0 auto;
 }
 
@@ -59,7 +59,7 @@
     position: relative;
     width: auto;
     height: auto;
-    border: 1px solid #9b9b9b;
+    /* border: 1px solid #9b9b9b; */
     margin: 0 auto;
 }
 
@@ -135,7 +135,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
-    border: 1px solid black;
 }
 
 #someworkContent{
@@ -145,5 +144,25 @@ hr {
     text-align: center;
     color: #b6b6b6;
     font-size: 90%;
+    margin-bottom: 5em;
 }
+
+#workmenu{
+    margin: 0 auto;
+    width: 29%;
+}
+
+.menu{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: .59em;
+    display: block;
+    float: left;
+    margin-right: 12px;
+    margin-left: 12px;
+    letter-spacing:.2em;
+    margin-bottom: 4em;
+}
+
+
 
