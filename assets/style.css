@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    /* border: 1px solid #9b9b9b; */
+    height: 80px;
+}
+
+#logo{
+    margin-top: 5px;
+    float: left;
+    /* border: 1px solid red; */
+    position: inherit;
+    height: auto;
+}
+
+#menu{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    /* border: 1px solid blue; */
+    float: right;
+    position: relative;
+    margin-top: 20px;
+}
+
+#headImg{
+    position: relative;
+    width: auto;
+    background-image:url(../images/image1.jpg);
+    background-size: cover;
+    height: 800px;
+    border: 1px solid #9b9b9b;
+    margin: 0 auto;
+}
+
+#sitename{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing:20px;
+    padding-top: 30%;
+    font-size: 300%;
+    color: white;
+}
+
+#subHeader{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    letter-spacing:7px;
+    color: white;
+}
+
+#subheading{
+    position: relative;
+    width: auto;
+    height: auto;
+    border: 1px solid #9b9b9b;
+    margin: 0 auto;
+}
+
+#greeting{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60%;
+    font-weight: bold;
+    letter-spacing:2px;
+    color: #f2c0c9;
+}
+
+#alpha{
+    padding-top: 16px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 170%;
+    font-weight: bold;
+    letter-spacing:14px;
+    color: #000000;
+}
+
+#subIntro{
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 7px;
+    margin: 10px auto;
+    display: table;
+    background-color: black;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 75%;
+    font-weight: bold;
+    letter-spacing:7px;
+    color: #ffffff;
+}
+
+#subIntroContent{
+    padding-top: 20px;
+    margin: 10px auto;
+    font-family: 'crimsontextroman';
+    width: 70%;
+    text-align: center;
+    color: #b6b6b6;
+    font-size: 90%;
+}
+
+#dots{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 90%;
+    font-weight: bold;
+    color: #000000;
+}
+
+#somework{
+    padding-top: 95px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    letter-spacing:2px;
+    color: #000000;
+}
+
+hr {
+    width: 70px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border: 1px solid black;
+}
+
+#someworkContent{
+    margin: 10px auto;
+    font-family: 'crimsontextroman';
+    width: 50%;
+    text-align: center;
+    color: #b6b6b6;
+    font-size: 90%;
+}
+
