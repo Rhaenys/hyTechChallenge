@@ -147,16 +147,24 @@ hr {
     margin-bottom: 5em;
 }
 
+#workContainer{
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
 #workmenu{
+    border: 1px solid blue;
     margin: 0 auto;
-    width: 29%;
+    display: inline-block;
 }
 
 .menu{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     font-size: .59em;
-    display: block;
+
     float: left;
     margin-right: 12px;
     margin-left: 12px;
@@ -164,5 +172,39 @@ hr {
     margin-bottom: 4em;
 }
 
+#worklist{
+    display: table;
+    border: 1px solid pink;
+    margin: 10px auto;
+    height: 700px;
+}
 
+.workitem{
+    float: left;
+    border: 1px solid green;
+    margin: 10px auto;
+    width: 370px;
+    height: 370px;
+    overflow: visible;
+}
 
+.workitem img{
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#workimg{
+    width: 370px;
+    height: 370px;
+}
+
+#worktitle{
+    float: left;
+    border: 1px solid fuchsia;
+}
+#category{
+    float: left;
+    border: 1px solid brown;
+}
