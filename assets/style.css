@@ -145,6 +145,7 @@ hr {
     color: #b6b6b6;
     font-size: 90%;
     margin-bottom: 5em;
+    border: 1px solid blueviolet;
 }
 
 #workContainer{
@@ -152,6 +153,7 @@ hr {
     margin: auto;
     text-align: center;
     width: 80%;
+    display: inherit;
 }
 
 #workmenu{
@@ -162,8 +164,8 @@ hr {
 
 .menu{
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size: .59em;
+    font-weight: 900;
+    font-size: .65em;
     float: left;
     margin-right: 12px;
     margin-left: 12px;
@@ -173,41 +175,68 @@ hr {
 
 #worklist{
     clear: left;
-    /*display: inline-block;*/
     /**/border: 1px solid pink;
-    /**/height: 700px;
     width: 82%;
     margin: 0 auto;
 }
 
 #workspan{
-    border: 1px solid blueviolet;
+    /*border: 1px solid blueviolet;*/
     display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .workitem{
-    margin-left: 1%;
     float: left;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     width: 370px;
     height: 370px;
     overflow: hidden;
+    background-color: #191919;
 }
 
 .workitem img{
     height: 100%;
+    min-width: 100%;
 }
 
 #worktext{
     border: 1px solid darkgoldenrod;
+
 }
 
 #worktitle{
     float: left;
-    border: 1px solid fuchsia;
+    /*border: 1px solid fuchsia;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: .9em;
+    letter-spacing:.1em;
+    margin-bottom: 12%;
+    display: inline-block;
 }
 
 #category{
+    margin-top: .8em;
+    margin-left: 2%;
     float: left;
-    border: 1px solid brown;
+    /*border: 1px solid brown;*/
+    font-family: 'crimsontextroman';
+    color: #b6b6b6;
+}
+
+#allworks{
+    border: 2px solid black;
+    margin: 45px auto 0;
+    display: table;
+    padding: 10px 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: .1em;
+    font-size: .85em;
+
+}
+#servicesContainer{
+    
 }
