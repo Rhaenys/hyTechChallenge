@@ -164,7 +164,6 @@ hr {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     font-size: .59em;
-
     float: left;
     margin-right: 12px;
     margin-left: 12px;
@@ -173,37 +172,41 @@ hr {
 }
 
 #worklist{
-    display: table;
-    border: 1px solid pink;
-    margin: 10px auto;
-    height: 700px;
+    clear: left;
+    /*display: inline-block;*/
+    /**/border: 1px solid pink;
+    /**/height: 700px;
+    width: 82%;
+    margin: 0 auto;
+}
+
+#workspan{
+    border: 1px solid blueviolet;
+    display: inline-block;
 }
 
 .workitem{
+    margin-left: 1%;
     float: left;
     border: 1px solid green;
-    margin: 10px auto;
     width: 370px;
     height: 370px;
-    overflow: visible;
+    overflow: hidden;
 }
 
 .workitem img{
-    margin: 0 auto;
     height: 100%;
-    overflow: hidden;
-    text-align: center;
 }
 
-#workimg{
-    width: 370px;
-    height: 370px;
+#worktext{
+    border: 1px solid darkgoldenrod;
 }
 
 #worktitle{
     float: left;
     border: 1px solid fuchsia;
 }
+
 #category{
     float: left;
     border: 1px solid brown;
