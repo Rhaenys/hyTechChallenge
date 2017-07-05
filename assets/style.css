@@ -228,7 +228,7 @@ hr {
 
 #allworks{
     border: 2px solid black;
-    margin: 45px auto 0;
+    margin: 45px auto 150px;
     display: table;
     padding: 10px 22px;
     font-family: 'Josefin Sans', sans-serif;
@@ -238,5 +238,31 @@ hr {
 
 }
 #servicesContainer{
-    
+    width: 80%;
+    border: 1px solid red;
+    margin: 10px auto 0;
+    text-align: center;
+    display: inherit;
+}
+
+#servicesImg{
+    width: 700px;
+    height: 655px;
+    background-image: url(../images/image8.jpg);
+    background-size: cover;
+    border: 1px solid brown;
+}
+
+#whitespace{
+    background-color: white;
+    margin: auto;
+    margin-top: 36%;
+    padding: 6%;
+    width: 19%;
+    height: 11%;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
