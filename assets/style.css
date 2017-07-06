@@ -427,20 +427,20 @@ h1{
 }
 
 #footer{
+    position: relative;
     clear: both;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     border: 1px solid blue;
     width: 90%;
-    height: 700px;
+    height: 200%;
 }
 
 
 #backdr{
-    position: absolute;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -450,7 +450,6 @@ h1{
     width: 81%;
     padding-bottom: 23%;
     display: block;
-    z-index: 1;
 }
 
 #footerContainer{
@@ -462,7 +461,6 @@ h1{
     right: 0;
     border: 1px solid green;
     width: 78%;
-    z-index: 2;
     background: white;
 }
 
@@ -549,10 +547,19 @@ body {
 padding: 2em;
 }
 
+#bottom{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+}
+
 #copyright{
     margin: 0 auto;
     position: absolute;
-    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: table;
     font-family: 'crimsontextroman';
     color: #000;
     font-style: italic;
@@ -560,4 +567,5 @@ padding: 2em;
     letter-spacing: .1em;
     font-size: .9em;
     text-align: center;
+    width: 500px;
 }
