@@ -6,20 +6,17 @@
     margin: 0 auto;
     text-align: center;
     padding-top: 10px;
-    /* border: 1px solid #9b9b9b; */
     height: 80px;
 }
 
 #logo{
     margin-top: 5px;
     float: left;
-    /* border: 1px solid red; */
     position: inherit;
     height: auto;
 }
 
 #menuContainer{
-    border: 1px solid blue;
     float: right;
     width: 85%;
     padding-top: 1%;
@@ -29,7 +26,7 @@
     margin: 0 1% 0 1%;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-    border: 1px solid red;
+
     float: right;
     position: relative;
 }
@@ -44,7 +41,6 @@
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-    border: 1px solid pink;
     float: right;
     position: relative;
     letter-spacing: -5px;
@@ -56,7 +52,6 @@
     background-image:url(../images/image1.jpg);
     background-size: cover;
     height: 800px;
-    /* border: 1px solid #9b9b9b;*/
     margin: 0 auto;
 }
 
@@ -82,7 +77,6 @@
     position: relative;
     width: auto;
     height: auto;
-    /* border: 1px solid #9b9b9b; */
     margin: 0 auto;
 }
 
@@ -142,7 +136,6 @@
 
 .somework{
     margin: 0 auto;
-    border: 1px solid #9b9b9b;
     padding-top: 95px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -170,11 +163,10 @@ hr {
     color: #b6b6b6;
     font-size: 90%;
     margin-bottom: 5em;
-    border: 1px solid blueviolet;
+
 }
 
 #workContainer{
-    border: 1px solid red;
     margin: auto;
     text-align: center;
     width: 80%;
@@ -182,7 +174,6 @@ hr {
 }
 
 #workmenu{
-    border: 1px solid blue;
     margin: 0 auto;
     display: inline-block;
     width: 31%
@@ -196,7 +187,6 @@ hr {
     letter-spacing:.2em;
     margin-bottom: 4em;
     padding: 0 1% 0 1%;
-    border: 1px solid green;
 }
 
 .wmenu:hover{
@@ -207,13 +197,11 @@ hr {
 
 #worklist{
     clear: left;
-    /**/border: 1px solid pink;
     width: 82%;
     margin: 0 auto;
 }
 
 .workspan{
-    /*border: 1px solid blueviolet;*/
     display: inline-block;
     margin-left: 1%;
     margin-right: 1%;
@@ -221,7 +209,6 @@ hr {
 
 .workitem{
     float: left;
-    /*border: 1px solid green;*/
     width: 370px;
     height: 370px;
     overflow: hidden;
@@ -233,13 +220,18 @@ hr {
     min-width: 100%;
 }
 
+.workitem img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    cursor:pointer;
+}
+
+
 .worktext{
-    border: 1px solid darkgoldenrod;
 }
 
 .worktitle{
     float: left;
-    /*border: 1px solid fuchsia;*/
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     font-size: .9em;
@@ -250,7 +242,6 @@ hr {
 
 .slash{
     float: left;
-    /*border: 1px solid fuchsia;*/
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     font-size: .9em;
@@ -260,7 +251,7 @@ hr {
     display: inline-block;
 }
 
-#worktitle:hover{
+.worktitle:hover{
     text-decoration: underline;
     cursor:pointer;
 }
@@ -270,7 +261,6 @@ hr {
     margin-top: .8em;
     margin-left: 2%;
     float: left;
-    /*border: 1px solid brown;*/
     font-family: 'crimsontextroman';
     color: #b6b6b6;
 }
@@ -295,7 +285,7 @@ hr {
 
 #servicesContainer{
     width: 80%;
-    border: 1px solid blue;
+
     margin: 10px auto 0;
     text-align: center;
     display: table;
@@ -309,7 +299,6 @@ hr {
     height: 655px;
     background-image: url(../images/image8.jpg);
     background-size: cover;
-    border: 1px solid brown;
 }
 
 #whitespace{
@@ -328,9 +317,8 @@ h3{
 
 #servicesList{
     height: 100%;
-    border: 2px solid red;
     display: inline-block;
-    float: right;
+    float: left;
     width: 49%;
     padding-top: 35px;
 }
@@ -339,7 +327,6 @@ h3{
     margin-top: 40px;
     display: block;
     margin-right: 9%;
-    border: 2px solid black;
     width: 100%
 }
 
@@ -351,7 +338,6 @@ h3{
 
 .imgContainer{
     float: left;
-    border: 2px solid #f68ca2;
     margin: 0px 20px;
     height: 60px;
     width: 70px;
@@ -364,7 +350,6 @@ h1{
     padding-left: 60px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
-    border: 1px solid brown;
     margin: 0;
 }
 
@@ -374,7 +359,6 @@ h1{
     padding: 5px;
     font-family: 'crimsontextroman';
     color: #b6b6b6;
-    border: 1px solid brown;
 }
 
 .blogContent{
@@ -383,19 +367,16 @@ h1{
     text-align: left;
     font-family: 'crimsontextroman';
     color: #b6b6b6;
-    border: 1px solid brown;
     display: inline;
 }
 
 #blogContainer{
     display: table;
-    border: 1px solid brown;
-    margin: auto;
+    margin: 4% auto;
     width: 80%;
 }
 
 #blogsContainer{
-    border: 1px solid red;
     margin: 0 auto;
     text-align: center;
     width: 85%;
@@ -404,7 +385,6 @@ h1{
 
 .blogPost{
     float: left;
-    border: 1px solid blue;
     display: table;
     margin: 1%;
 }
@@ -421,6 +401,11 @@ h1{
     vertical-align: bottom;
 }
 
+.blogimg img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    cursor:pointer;
+}
 
 .blogCategory{
     text-align: left;
@@ -441,10 +426,9 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
     font-weight: 900;
-    border: 1px solid brown;
 }
 
-#blogTitle:hover{
+.blogTitle:hover{
     cursor:pointer;
     color: #b6b6b6;
 }
@@ -465,24 +449,27 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
     font-weight: 900;
-    border: 1px solid brown;
 }
 #wantworkContent{
     margin-top: 10px;
     font-family: 'crimsontextroman';
     color: #b6b6b6;
-    border: 1px solid fuchsia;
+
 }
 
 .startproject{
     margin-top: 10px;
     margin-bottom: 20px;
-    border: 1px solid fuchsia;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
     font-size: .9em;
     letter-spacing:.1em;
     display: inline-block;
+}
+
+.startproject:hover{
+    cursor:pointer;
+    color: #b6b6b6;
 }
 
 #footer{
@@ -492,7 +479,6 @@ h1{
     margin-right: auto;
     left: 0;
     right: 0;
-    border: 1px solid blue;
     width: 90%;
     height: 200%;
 }
@@ -504,7 +490,6 @@ h1{
     margin-right: auto;
     left: 0;
     right: 0;
-    border: 1px solid red;
     background: #fae2e2;
     width: 81%;
     padding-bottom: 23%;
@@ -518,7 +503,6 @@ h1{
     margin-right: auto;
     left: 0;
     right: 0;
-    border: 1px solid green;
     width: 78%;
     background: white;
 }
@@ -526,7 +510,6 @@ h1{
 .fcontent{
     font-family: 'crimsontextroman';
     color: #b6b6b6;
-    border: 1px solid fuchsia;
 }
 
 #alphalogo{
@@ -538,7 +521,6 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
     font-weight: 900;
-    border: 1px solid brown;
     letter-spacing: .5em;
 }
 
@@ -547,7 +529,6 @@ h1{
     font-family: 'crimsontextroman';
     color: #000;
     font-style: italic;
-    border: 1px solid fuchsia;
     letter-spacing: .1em;
     font-size: .9em;
 }
@@ -581,14 +562,12 @@ h1{
 
 .office {
     float: left;
-    border: 1px solid green;
     text-align: left;
 }
 
 .contact {
     text-align: right;
     float: right;
-    border: 1px solid green;
 }
 
 @media all and (min-width: 600px) {
@@ -612,7 +591,7 @@ padding: 2em;
     font-family: 'Josefin Sans', sans-serif;
     color: #b6b6b6;
     font-weight: bold;
-    border: 1px solid fuchsia;
+
     letter-spacing: .1em;
     font-size: .9em;
     text-align: center;
