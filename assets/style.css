@@ -18,13 +18,36 @@
     height: auto;
 }
 
-#menu{
+#menuContainer{
+    border: 1px solid blue;
+    float: right;
+    width: 85%;
+    padding-top: 1%;
+}
+
+.menu{
+    margin: 0 1% 0 1%;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-    /* border: 1px solid blue; */
+    border: 1px solid red;
     float: right;
     position: relative;
-    margin-top: 20px;
+}
+
+.menu:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.line{
+    margin: -.6% 0 0 0;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    border: 1px solid pink;
+    float: right;
+    position: relative;
+    letter-spacing: -5px;
 }
 
 #headImg{
@@ -41,7 +64,7 @@
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing:20px;
-    padding-top: 30%;
+    padding-top: 20%;
     font-size: 300%;
     color: white;
 }
@@ -117,7 +140,7 @@
     color: #000000;
 }
 
-#somework{
+.somework{
     margin: 0 auto;
     border: 1px solid #9b9b9b;
     padding-top: 95px;
@@ -162,17 +185,24 @@ hr {
     border: 1px solid blue;
     margin: 0 auto;
     display: inline-block;
+    width: 31%
 }
 
-.menu{
+.wmenu{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
     font-size: .65em;
     float: left;
-    margin-right: 12px;
-    margin-left: 12px;
     letter-spacing:.2em;
     margin-bottom: 4em;
+    padding: 0 1% 0 1%;
+    border: 1px solid green;
+}
+
+.wmenu:hover{
+    background: #000;
+    color: #fff;
+    cursor:pointer;
 }
 
 #worklist{
@@ -182,7 +212,7 @@ hr {
     margin: 0 auto;
 }
 
-#workspan{
+.workspan{
     /*border: 1px solid blueviolet;*/
     display: inline-block;
     margin-left: 1%;
@@ -203,12 +233,11 @@ hr {
     min-width: 100%;
 }
 
-#worktext{
+.worktext{
     border: 1px solid darkgoldenrod;
-
 }
 
-#worktitle{
+.worktitle{
     float: left;
     /*border: 1px solid fuchsia;*/
     font-family: 'Josefin Sans', sans-serif;
@@ -219,7 +248,25 @@ hr {
     display: inline-block;
 }
 
-#category{
+.slash{
+    float: left;
+    /*border: 1px solid fuchsia;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: .9em;
+    letter-spacing:.1em;
+    margin-left: 2%;
+    margin-bottom: 12%;
+    display: inline-block;
+}
+
+#worktitle:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+
+.category{
     margin-top: .8em;
     margin-left: 2%;
     float: left;
@@ -239,6 +286,13 @@ hr {
     font-size: .85em;
 
 }
+
+#allworks:hover{
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+
 #servicesContainer{
     width: 80%;
     border: 1px solid blue;
@@ -295,7 +349,7 @@ h3{
 }
 
 
-#imgContainer{
+.imgContainer{
     float: left;
     border: 2px solid #f68ca2;
     margin: 0px 20px;
@@ -314,7 +368,7 @@ h1{
     margin: 0;
 }
 
-#servicesContent{
+.servicesContent{
     margin: 0 auto;
     text-align: left;
     padding: 5px;
@@ -323,7 +377,7 @@ h1{
     border: 1px solid brown;
 }
 
-#blogContent{
+.blogContent{
     float: left;
     padding-right: 5px;
     text-align: left;
@@ -342,10 +396,10 @@ h1{
 
 #blogsContainer{
     border: 1px solid red;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
-    width: 80%;
-    display: inherit;
+    width: 85%;
+    display: block;
 }
 
 .blogPost{
@@ -368,7 +422,7 @@ h1{
 }
 
 
-#blogCategory{
+.blogCategory{
     text-align: left;
     margin-top: 28px;
     display: block;
@@ -379,7 +433,7 @@ h1{
     color: #f2c0c9;
 }
 
-#blogTitle{
+.blogTitle{
     margin: 10px 0 10px 0;
     display: block;
     width: 370px;
@@ -388,6 +442,11 @@ h1{
     font-size: 1.5em;
     font-weight: 900;
     border: 1px solid brown;
+}
+
+#blogTitle:hover{
+    cursor:pointer;
+    color: #b6b6b6;
 }
 
 #workwithus{
@@ -415,7 +474,7 @@ h1{
     border: 1px solid fuchsia;
 }
 
-#startproject{
+.startproject{
     margin-top: 10px;
     margin-bottom: 20px;
     border: 1px solid fuchsia;
@@ -464,7 +523,7 @@ h1{
     background: white;
 }
 
-#fcontent{
+.fcontent{
     font-family: 'crimsontextroman';
     color: #b6b6b6;
     border: 1px solid fuchsia;
@@ -547,22 +606,12 @@ body {
 padding: 2em;
 }
 
-#bottom{
-    position: absolute;
-    display: block;
-    margin: 0 auto;
-}
-
 #copyright{
-    margin: 0 auto;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin: 1% auto;
     display: table;
-    font-family: 'crimsontextroman';
-    color: #000;
-    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #b6b6b6;
+    font-weight: bold;
     border: 1px solid fuchsia;
     letter-spacing: .1em;
     font-size: .9em;
